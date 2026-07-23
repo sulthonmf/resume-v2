@@ -1,0 +1,180 @@
+@import "tailwindcss";
+
+:root {
+  /* Light Mode Variables */
+  --bg-color: #F8FAFC; /* slate-50 */
+  --header-color: #0F172A; /* slate-900 */
+  --text-color: #334155; /* slate-700 */
+  --text-muted: #64748B; /* slate-500 */
+  --card-bg: rgba(255, 255, 255, 0.8);
+  --border-color: rgba(226, 232, 240, 0.9);
+  --grid-color: rgba(15, 23, 42, 0.02);
+  --panel-bg: #E2E8F0;
+  --nav-bg: rgba(255, 255, 255, 0.8);
+  --yellow-color: #D97706; /* amber-600 */
+  --accent-color: #0891B2; /* cyan-600 */
+}
+
+.dark {
+  /* Dark Mode Variables */
+  --bg-color: #08090D;
+  --header-color: #FFFFFF;
+  --text-color: #E2E8F0; /* slate-200 */
+  --text-muted: #94A3B8; /* slate-400 */
+  --card-bg: rgba(21, 24, 34, 0.7);
+  --border-color: rgba(38, 43, 61, 0.8);
+  --grid-color: rgba(255, 230, 0, 0.03);
+  --panel-bg: #0F1118;
+  --nav-bg: rgba(15, 17, 24, 0.75);
+  --yellow-color: #FFE600;
+  --accent-color: #00F0FF;
+}
+
+@theme {
+  /* Mapped Theme Variables */
+  --color-cyber-dark: var(--bg-color);
+  --color-cyber-panel: var(--panel-bg);
+  --color-cyber-card: var(--card-bg);
+  --color-cyber-border: var(--border-color);
+  --color-cyber-yellow: var(--yellow-color);
+  --color-cyber-accent: var(--accent-color);
+  
+  --color-cyber-header: var(--header-color);
+  --color-cyber-text: var(--text-color);
+  --color-cyber-textMuted: var(--text-muted);
+
+  --color-cyber-yellowGlow: #FCEE0A;
+  --color-cyber-borderLight: #3D445E;
+  --color-cyber-pink: #FF0055;
+
+  /* Font Mappings */
+  --font-sans: var(--font-sans), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-mono), monospace;
+
+  /* Animation Mappings */
+  --animate-fadeIn: fadeIn 0.3s ease-out;
+  --animate-marquee: marquee 25s linear infinite;
+  --animate-marquee-reverse: marquee-reverse 25s linear infinite;
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes marquee-reverse {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Smooth Transitions for Theme Swaps */
+.glass-card, .ios-glass-nav, .bg-cyber-panel, .border-cyber-border, button, a {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Custom Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--yellow-color);
+}
+
+/* Cyberpunk Grid Overlay Background */
+.cyber-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, var(--grid-color) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-color) 1px, transparent 1px);
+}
+
+/* iOS Floating Glass Navigation Bar */
+.ios-glass-nav {
+  background: var(--nav-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1), 0 0 15px rgba(255, 230, 0, 0.02);
+}
+
+.dark .ios-glass-nav {
+  border-color: rgba(255, 230, 0, 0.25);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.8), 0 0 15px rgba(255, 230, 0, 0.15);
+}
+
+/* Glassmorphism Cards */
+.glass-card {
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.04);
+}
+
+.dark .glass-card {
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.glass-card:hover {
+  border-color: var(--yellow-color);
+}
+
+.dark .glass-card:hover {
+  box-shadow: 0 10px 30px -5px rgba(255, 230, 0, 0.15);
+}
+
+/* Mock Device Frame Shadows */
+.device-shadow {
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.1);
+}
+
+.dark .device-shadow {
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.8), 0 0 30px rgba(255, 230, 0, 0.1);
+}
+
+/* Cyber yellow text glow */
+.yellow-glow {
+  text-shadow: 0 0 12px var(--yellow-color);
+}
+
+/* Custom scrollbar hider utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,57 @@
+{
+  "header": {
+    "home": "Home / Profile",
+    "homeShort": "Profile",
+    "projects": "Project Showcase",
+    "projectsShort": "Projects",
+    "projectCount": "Projects"
+  },
+  "bio": {
+    "available": "Open for Hire / Contract",
+    "copyEmail": "Copy Email",
+    "copiedEmail": "Email Copied! ✓",
+    "connect": "Connect / Contact",
+    "call": "Call",
+    "copy": "Copy",
+    "copied": "Copied ✓",
+    "downloadCv": "Download CV"
+  },
+  "stats": {
+    "education": "EDUCATION HISTORY",
+    "formal": "Formal Credentials"
+  },
+  "tech": {
+    "title": "CORE TECH ENGINE",
+    "sub": "Infinite Scrolling Marquee",
+    "moreDetails": "DIDN'T FIND FRAMEWORK YOU NEED? MORE DETAILS →"
+  },
+  "experience": {
+    "title": "PROFESSIONAL EXPERIENCE",
+    "sub": "Careers & Contracts"
+  },
+  "projects": {
+    "title": "PORTFOLIO SHOWCASE",
+    "sidebar": "PORTFOLIO SHOWCASE",
+    "separate": "Separate Projects",
+    "all": "All"
+  },
+  "device": {
+    "laptopView": "LAPTOP VIEW (WEB APPLICATION)",
+    "phoneView": "SMARTPHONE VIEW (MOBILE APPLICATION)",
+    "techHeader": "TECH STACK & TOOLS",
+    "online": "ONLINE",
+    "ready": "READY",
+    "synced": "SYNCED",
+    "active": "ACTIVE",
+    "stackCore": "STACK CORE",
+    "styling": "STYLING",
+    "integration": "INTEGRATION",
+    "restricted": "RESTRICTED ACCESS / NDA SECURE",
+    "confidentialTitle": "CONFIDENTIAL INTERNAL PROJECT",
+    "confidentialDesc": "This project is a confidential corporate asset. Visual documentation and public access are restricted in compliance with Non-Disclosure Agreements (NDA) of the respective company.",
+    "securityStatus": "SECURITY STATUS: FULLY ENCRYPTED",
+    "playStore": "Play Store Download",
+    "appStore": "App Store Download",
+    "visitWeb": "Visit Website"
+  }
+}

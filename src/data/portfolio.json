@@ -1,0 +1,560 @@
+{
+  "id": {
+    "profile": {
+      "name": "Sulthon Maulana Fathuddin",
+      "title": "Senior Software Engineer",
+      "location": "Jakarta/Indonesia",
+      "bio": "Senior Software Engineer berlokasi di Jakarta/Indonesia dengan rekam jejak spesialisasi pada ekosistem React, Next.js, React Native, Expo & Angular. Berpengalaman memimpin slicing UI, integrasi SDK enterprise, hingga deployment aplikasi sektor Insurance, Finance, & E-Commerce.",
+      "contact": {
+        "email": "sulthonmf@gmail.com",
+        "phone": "+62 819-0515-5155",
+        "website": "dev-sulthon.vercel.app",
+        "url": "https://dev-sulthon.vercel.app",
+        "cvUrl": "https://drive.google.com/file/d/1ZYcI--RH0X-_YRJia8y_27XvsZFJQnQJ/view?usp=sharing"
+      },
+      "stats": [
+        {
+          "label": "Pengalaman Kerja",
+          "value": "8+ Tahun",
+          "sub": "Sejak 2017 - Sekarang",
+          "theme": "yellow"
+        },
+        {
+          "label": "Aplikasi Enterprise",
+          "value": "9+ Proyek",
+          "sub": "Web & Mobile Store",
+          "theme": "accent"
+        }
+      ],
+      "education": [
+        {
+          "degree": "S1 - Sistem Informasi",
+          "institution": "Universitas Nusa Mandiri",
+          "period": "2023 - Sekarang",
+          "current": true
+        },
+        {
+          "degree": "D3 - Manajemen Informatika",
+          "institution": "Universitas Bina Sarana Informatika",
+          "period": "2014 - 2017",
+          "current": false
+        }
+      ],
+      "techStack": [
+        {
+          "category": "MOBILE",
+          "name": "React Native",
+          "sub": "Expo, Redux, Kotlin"
+        },
+        {
+          "category": "FRONTEND",
+          "name": "Next.js & Angular",
+          "sub": "React JS, Tailwind"
+        },
+        {
+          "category": "BACKEND",
+          "name": "Express & Nest JS",
+          "sub": "Go, Spring Boot, Laravel"
+        },
+        {
+          "category": "CLOUD / SDK",
+          "name": "Firebase & GCP",
+          "sub": "Azure, Supabase, Redis"
+        },
+        {
+          "category": "DATABASE",
+          "name": "MySQL & Postgres",
+          "sub": "MongoDB, SQL Server"
+        },
+        {
+          "category": "DEVOPS",
+          "name": "Docker & K8s",
+          "sub": "AWS, Git, CI/CD"
+        }
+      ],
+      "experience": [
+        {
+          "period": "Nov 2025 - Present",
+          "role": "Senior Frontend Engineer",
+          "company": "Code Development Indonesia",
+          "description": "Analisis, Slicing UI, Integrasi SDK, Unit Testing & Deployment Prudential Ecosystem (PRUHUB & PRUFORCE).",
+          "isCurrent": true
+        },
+        {
+          "period": "Feb 2023 - Nov 2025",
+          "role": "Senior Software Engineer",
+          "company": "Photon Interactive Indonesia",
+          "description": "Pengembangan Avis Budget Mobile App (Expo & React Native) & Bally E-Commerce Web Platform (Next.js).",
+          "isCurrent": false
+        },
+        {
+          "period": "Jan 2020 - Feb 2023",
+          "role": "IT Programmer Staff",
+          "company": "Asuransi Jasa Tania TBK",
+          "description": "Membangun E-Office Web Automation (Laravel), Jastan Mobile App (Kotlin), & Web Agent Customer Input.",
+          "isCurrent": false
+        },
+        {
+          "period": "Sep 2017 - Jun 2018",
+          "role": "IT Programmer Staff",
+          "company": "Maybank Finance Indonesia",
+          "description": "Membangun Mobile App Kredit Pasti Mudah & Maybank Finance App (React Native + .NET).",
+          "isCurrent": false
+        }
+      ]
+    },
+    "projects": [
+      {
+        "id": 0,
+        "title": "PRUFORCE Mobile App",
+        "client": "Code Development Indonesia",
+        "type": "mobile",
+        "year": "2025 - Present",
+        "category": "Insurance Mobile App",
+        "description": "Aplikasi mobile flagship untuk agen sales Prudential Insurance (iOS & Android). Mengintegrasikan Firebase, Azure SDK, serta Redis caching layer untuk sinkronisasi data prospek & polis secara real-time.",
+        "badges": ["React Native", "Redux Toolkit", "Redis", "Firebase", "Azure", "JIRA Software"],
+        "appTitle": "PRUFORCE Agent App",
+        "appBannerTitle": "Prudential PRUFORCE",
+        "appBannerSub": "React Native + Redux Toolkit",
+        "feat1": "Biometric & Single Sign-On",
+        "feat2": "Azure SDK & Policy Sync",
+        "feat3": "Offline First Draft Mode",
+        "isConfidential": false,
+        "image": "/pruforce/PruforceAPP.png"
+      },
+      {
+        "id": 1,
+        "title": "PRUHUB Enterprise Web",
+        "client": "Code Development Indonesia",
+        "type": "web",
+        "year": "2025 - Present",
+        "category": "Enterprise Web Portal",
+        "description": "Portal back-office terpadu Prudential Insurance untuk pengelolaan klaim, manajemen agen, serta integrasi headless CMS Contentful & e-Commerce Shopify.",
+        "badges": ["Angular", "TailwindCSS", "Contentful", "Shopify", "Git", "JIRA"],
+        "webUrl": "https://pruhub.prudential.co.id",
+        "webTitle": "Prudential PRUHUB",
+        "webMetrics": ["Angular", "Contentful", "Shopify"],
+        "webTag": "Angular + TailwindCSS",
+        "webDesc": "Portal Manajemen Back-Office Enterprise Prudential",
+        "isConfidential": true
+      },
+      {
+        "id": 2,
+        "title": "Avis Car Rental App",
+        "client": "Photon Interactive Indonesia",
+        "type": "mobile",
+        "year": "2023 - 2026",
+        "category": "Global Car Rental Mobile",
+        "description": "Aplikasi rental mobil internasional Avis Car Rental dengan integrasi MicroBlink OCR SDK untuk scan SIM/Paspor & MMKV fast native key-value storage.",
+        "badges": ["React Native", "Expo", "Redux Toolkit", "MMKV", "MicroBlink", "Firebase"],
+        "appTitle": "Avis Car Rental App",
+        "appBannerTitle": "Avis Car Rental",
+        "appBannerSub": "React Native & Expo Engine",
+        "feat1": "MicroBlink OCR License Scanner",
+        "feat2": "MMKV Fast Native Storage",
+        "feat3": "Real-time Car Reservation Sync",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.avis.mobile&hl=en_US&pli=1",
+        "appStoreUrl": "https://apps.apple.com/us/app/avis-car-rental/id308342527",
+        "image": "/avis/Avis.png"
+      },
+      {
+        "id": 9,
+        "title": "Budget Car Rental App",
+        "client": "Photon Interactive Indonesia",
+        "type": "mobile",
+        "year": "2023 - 2026",
+        "category": "Global Car Rental Mobile",
+        "description": "Aplikasi rental mobil internasional Budget Car Rental dengan integrasi MicroBlink OCR SDK untuk scan SIM/Paspor & MMKV fast native key-value storage.",
+        "badges": ["React Native", "Expo", "Redux Toolkit", "MMKV", "MicroBlink", "Firebase"],
+        "appTitle": "Budget Car Rental App",
+        "appBannerTitle": "Budget Car Rental",
+        "appBannerSub": "React Native & Expo Engine",
+        "feat1": "MicroBlink OCR License Scanner",
+        "feat2": "MMKV Fast Native Storage",
+        "feat3": "Real-time Car Reservation Sync",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.budget.androidapp",
+        "appStoreUrl": "https://apps.apple.com/us/app/budget-car-rental/id538787758",
+        "image": "/budget/Budget.png"
+      },
+      {
+        "id": 3,
+        "title": "Bally E-Commerce Platform",
+        "client": "Photon Interactive Indonesia",
+        "type": "web",
+        "year": "2023",
+        "category": "Luxury E-Commerce & Careers",
+        "description": "Platform e-Commerce & Portal Karir global brand mewah Bally. Fokus pada SEO Optimization, rendering kecepatan tinggi dengan Next.js App Router, & Shopify Storefront.",
+        "badges": ["Next.js", "TailwindCSS", "Contentful", "Shopify", "SEO Opt."],
+        "webUrl": "https://www.bally.com/",
+        "webTitle": "BALLY Luxury E-Commerce",
+        "webMetrics": ["Next.js", "Contentful", "Shopify"],
+        "webTag": "Next.js + TailwindCSS",
+        "webDesc": "Global Luxury E-Commerce & Careers Platform",
+        "image": "/bally/Bally.png",
+        "note": "Sebenarnya terdapat 2 proyek internal lain yang dikembangkan, namun perilisan keduanya dibatalkan dan fiturnya digabungkan (merge) ke dalam satu platform e-Commerce utama ini."
+      },
+      {
+        "id": 4,
+        "title": "Jastan E-Office Automation",
+        "client": "Asuransi Jasa Tania TBK",
+        "type": "web",
+        "year": "2020 - 2023",
+        "category": "Internal Workflow Automation",
+        "description": "Sistem otomasi surat-menyurat dan approval dokumen kantor internal perusahaan asuransi berbasis web dengan hierarki bertingkat dan audit trail.",
+        "badges": ["Laravel 9", "MySQL", "SQL Server", "Laragon", "Figma"],
+        "webUrl": "https://eoffice.jastania.co.id",
+        "webTitle": "E-Office Jasa Tania",
+        "webMetrics": ["Laravel 9", "MySQL", "SQL Server"],
+        "webTag": "Laravel 9 + TailwindCSS",
+        "webDesc": "Automated Corporate Approval & Archiving System",
+        "isConfidential": true
+      },
+      {
+        "id": 5,
+        "title": "Jastan Mobile App",
+        "client": "Asuransi Jasa Tania TBK",
+        "type": "mobile",
+        "year": "2020 - 2023",
+        "category": "Insurance Customer Mobile",
+        "description": "Aplikasi Android native untuk nasabah Asuransi Jasa Tania mencakup cek polis, pengajuan klaim instan, & integrasi Alibaba Cloud + Firebase Notification.",
+        "badges": ["Kotlin", "Android Native", "Alibaba Cloud", "Firebase"],
+        "appTitle": "Jastan Mobile App",
+        "appBannerTitle": "Asuransi Jasa Tania Mobile",
+        "appBannerSub": "Kotlin Android Native",
+        "feat1": "Direct Policy Claim Input",
+        "feat2": "Alibaba Cloud Infrastructure",
+        "feat3": "Push Notification Alerts",
+        "isConfidential": true
+      },
+      {
+        "id": 6,
+        "title": "Web Agent Production Input",
+        "client": "Asuransi Jasa Tania TBK",
+        "type": "web",
+        "year": "2020 - 2023",
+        "category": "Insurance Production Portal",
+        "description": "Aplikasi web tempat agen menginput data klaim & polis nasabah baru secara langsung dengan validasi form ketat dan kalkulasi premi otomatis.",
+        "badges": ["React JS", "Express JS", "MySQL", "SQL Server"],
+        "webUrl": "https://webagent.jastania.co.id",
+        "webTitle": "Jastan Web Agent Portal",
+        "webMetrics": ["React JS", "Express JS", "MySQL"],
+        "webTag": "React JS + Express API",
+        "webDesc": "Customer Production & Premium Calculation System",
+        "isConfidential": true
+      },
+      {
+        "id": 7,
+        "title": "Kredit Pasti Mudah App",
+        "client": "Maybank Finance Indonesia",
+        "type": "mobile",
+        "year": "2017 - 2018",
+        "category": "Fintech Credit Simulation",
+        "description": "Aplikasi pengajuan kredit kendaraan cepat Maybank Finance dengan kalkulator simulasi cicilan, upload dokumen persyaratan, & REST API .NET Backend.",
+        "badges": ["React Native", "Redux Toolkit", ".NET API", "SQL Server", "Firebase"],
+        "appTitle": "Kredit Pasti Mudah",
+        "appBannerTitle": "Maybank Kredit Pasti Mudah",
+        "appBannerSub": "React Native + .NET Core",
+        "feat1": "Instant Credit Calculator",
+        "feat2": "Document Scanner & Uploader",
+        "feat3": "Integrated Credit Score Engine",
+        "image": "/kpm/KPM.PNG"
+      },
+      {
+        "id": 8,
+        "title": "Maybank Finance App",
+        "client": "Maybank Finance Indonesia",
+        "type": "mobile",
+        "year": "2017 - 2018",
+        "category": "Customer Self-Service Mobile",
+        "description": "Aplikasi mobile utama bagi nasabah Maybank Finance untuk pengecekan sisa angsuran, pembayaran online, serta permohonan pengambilan BPKB.",
+        "badges": ["React Native", "Redux Toolkit", "Firebase", "SQL Server"],
+        "appTitle": "Maybank Finance App",
+        "appBannerTitle": "Maybank Finance Mobile",
+        "appBannerSub": "React Native Cross Platform",
+        "feat1": "Installment Payment Gateway",
+        "feat2": "Contract & BPKB Tracker",
+        "feat3": "Secure Account Portal",
+        "image": "/maybankf/MaybankF.PNG"
+      }
+    ]
+  },
+  "en": {
+    "profile": {
+      "name": "Sulthon Maulana Fathuddin",
+      "title": "Senior Software Engineer",
+      "location": "Jakarta, Indonesia",
+      "bio": "Senior Software Engineer based in Jakarta, Indonesia with a proven track record specializing in React, Next.js, React Native, Expo & Angular ecosystem. Experienced in leading UI slicing, enterprise SDK integration, and application deployments across Insurance, Finance, & E-Commerce sectors.",
+      "contact": {
+        "email": "sulthonmf@gmail.com",
+        "phone": "+62 819-0515-5155",
+        "website": "dev-sulthon.vercel.app",
+        "url": "https://dev-sulthon.vercel.app",
+        "cvUrl": "https://drive.google.com/file/d/1ZYcI--RH0X-_YRJia8y_27XvsZFJQnQJ/view?usp=sharing"
+      },
+      "stats": [
+        {
+          "label": "Work Experience",
+          "value": "8+ Years",
+          "sub": "Since 2017 - Present",
+          "theme": "yellow"
+        },
+        {
+          "label": "Enterprise Applications",
+          "value": "9+ Projects",
+          "sub": "Web & Mobile Store",
+          "theme": "accent"
+        }
+      ],
+      "education": [
+        {
+          "degree": "B.S. in Information Systems",
+          "institution": "Nusa Mandiri University",
+          "period": "2023 - Present",
+          "current": true
+        },
+        {
+          "degree": "Associate Degree in Information Systems",
+          "institution": "Bina Sarana Informatika University",
+          "period": "2014 - 2017",
+          "current": false
+        }
+      ],
+      "techStack": [
+        {
+          "category": "MOBILE",
+          "name": "React Native",
+          "sub": "Expo, Redux, Kotlin"
+        },
+        {
+          "category": "FRONTEND",
+          "name": "Next.js & Angular",
+          "sub": "React JS, Tailwind"
+        },
+        {
+          "category": "BACKEND",
+          "name": "Express & Nest JS",
+          "sub": "Go, Spring Boot, Laravel"
+        },
+        {
+          "category": "CLOUD / SDK",
+          "name": "Firebase & GCP",
+          "sub": "Azure, Supabase, Redis"
+        },
+        {
+          "category": "DATABASE",
+          "name": "MySQL & Postgres",
+          "sub": "MongoDB, SQL Server"
+        },
+        {
+          "category": "DEVOPS",
+          "name": "Docker & K8s",
+          "sub": "AWS, Git, CI/CD"
+        }
+      ],
+      "experience": [
+        {
+          "period": "Nov 2025 - Present",
+          "role": "Senior Frontend Engineer",
+          "company": "Code Development Indonesia",
+          "description": "Analysis, UI slicing, SDK integration, unit testing & deployment of the Prudential Ecosystem (PRUHUB & PRUFORCE).",
+          "isCurrent": true
+        },
+        {
+          "period": "Feb 2023 - Nov 2025",
+          "role": "Senior Software Engineer",
+          "company": "Photon Interactive Indonesia",
+          "description": "Development of the Avis Budget Mobile App (Expo & React Native) & Bally E-Commerce Web Platform (Next.js).",
+          "isCurrent": false
+        },
+        {
+          "period": "Jan 2020 - Feb 2023",
+          "role": "IT Programmer Staff",
+          "company": "Asuransi Jasa Tania TBK",
+          "description": "Built E-Office Web Automation (Laravel), Jastan Mobile App (Kotlin), and Web Agent Customer Input.",
+          "isCurrent": false
+        },
+        {
+          "period": "Sep 2017 - Jun 2018",
+          "role": "IT Programmer Staff",
+          "company": "Maybank Finance Indonesia",
+          "description": "Built Kredit Pasti Mudah Mobile App & Maybank Finance App (React Native + .NET).",
+          "isCurrent": false
+        }
+      ]
+    },
+    "projects": [
+      {
+        "id": 0,
+        "title": "PRUFORCE Mobile App",
+        "client": "Code Development Indonesia",
+        "type": "mobile",
+        "year": "2025 - Present",
+        "category": "Insurance Mobile App",
+        "description": "Flagship mobile application for Prudential Insurance sales agents (iOS & Android). Integrates Firebase, Azure SDK, and a Redis caching layer for real-time prospect and policy data synchronization.",
+        "badges": ["React Native", "Redux Toolkit", "Redis", "Firebase", "Azure", "JIRA Software"],
+        "appTitle": "PRUFORCE Agent App",
+        "appBannerTitle": "Prudential PRUFORCE",
+        "appBannerSub": "React Native + Redux Toolkit",
+        "feat1": "Biometric & Single Sign-On",
+        "feat2": "Azure SDK & Policy Sync",
+        "feat3": "Offline First Draft Mode",
+        "isConfidential": false,
+        "image": "/pruforce/PruforceAPP.png"
+      },
+      {
+        "id": 1,
+        "title": "PRUHUB Enterprise Web",
+        "client": "Code Development Indonesia",
+        "type": "web",
+        "year": "2025 - Present",
+        "category": "Enterprise Web Portal",
+        "description": "Unified back-office portal for Prudential Insurance managing claims, agents, and incorporating headless CMS Contentful & Shopify e-Commerce integrations.",
+        "badges": ["Angular", "TailwindCSS", "Contentful", "Shopify", "Git", "JIRA"],
+        "webUrl": "https://pruhub.prudential.co.id",
+        "webTitle": "Prudential PRUHUB",
+        "webMetrics": ["Angular", "Contentful", "Shopify"],
+        "webTag": "Angular + TailwindCSS",
+        "webDesc": "Prudential Enterprise Back-Office Management Portal",
+        "isConfidential": true
+      },
+      {
+        "id": 2,
+        "title": "Avis Car Rental App",
+        "client": "Photon Interactive Indonesia",
+        "type": "mobile",
+        "year": "2023 - 2026",
+        "category": "Global Car Rental Mobile",
+        "description": "Avis Car Rental international car rental application integrated with MicroBlink OCR SDK for scanning driver licenses/passports & MMKV fast native key-value storage.",
+        "badges": ["React Native", "Expo", "Redux Toolkit", "MMKV", "MicroBlink", "Firebase"],
+        "appTitle": "Avis Car Rental App",
+        "appBannerTitle": "Avis Car Rental",
+        "appBannerSub": "React Native & Expo Engine",
+        "feat1": "MicroBlink OCR License Scanner",
+        "feat2": "MMKV Fast Native Storage",
+        "feat3": "Real-time Car Reservation Sync",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.avis.mobile&hl=en_US&pli=1",
+        "appStoreUrl": "https://apps.apple.com/us/app/avis-car-rental/id308342527",
+        "image": "/avis/Avis.png"
+      },
+      {
+        "id": 9,
+        "title": "Budget Car Rental App",
+        "client": "Photon Interactive Indonesia",
+        "type": "mobile",
+        "year": "2023 - 2026",
+        "category": "Global Car Rental Mobile",
+        "description": "Budget Car Rental international car rental application integrated with MicroBlink OCR SDK for scanning driver licenses/passports & MMKV fast native key-value storage.",
+        "badges": ["React Native", "Expo", "Redux Toolkit", "MMKV", "MicroBlink", "Firebase"],
+        "appTitle": "Budget Car Rental App",
+        "appBannerTitle": "Budget Car Rental",
+        "appBannerSub": "React Native & Expo Engine",
+        "feat1": "MicroBlink OCR License Scanner",
+        "feat2": "MMKV Fast Native Storage",
+        "feat3": "Real-time Car Reservation Sync",
+        "playStoreUrl": "https://play.google.com/store/apps/details?id=com.budget.androidapp",
+        "appStoreUrl": "https://apps.apple.com/us/app/budget-car-rental/id538787758",
+        "image": "/budget/Budget.png"
+      },
+      {
+        "id": 3,
+        "title": "Bally E-Commerce Platform",
+        "client": "Photon Interactive Indonesia",
+        "type": "web",
+        "year": "2023",
+        "category": "Luxury E-Commerce & Careers",
+        "description": "Luxury brand Bally's global e-commerce and career portal. Optimized for SEO performance and high rendering speed using Next.js App Router and Shopify Storefront.",
+        "badges": ["Next.js", "TailwindCSS", "Contentful", "Shopify", "SEO Opt."],
+        "webUrl": "https://www.bally.com/",
+        "webTitle": "BALLY Luxury E-Commerce",
+        "webMetrics": ["Next.js", "Contentful", "Shopify"],
+        "webTag": "Next.js + TailwindCSS",
+        "webDesc": "Global Luxury E-Commerce & Careers Platform",
+        "image": "/bally/Bally.png",
+        "note": "Originally, 2 other internal projects were developed, but their standalone releases were cancelled and their features were merged into this single primary e-Commerce platform."
+      },
+      {
+        "id": 4,
+        "title": "Jastan E-Office Automation",
+        "client": "Asuransi Jasa Tania TBK",
+        "type": "web",
+        "year": "2020 - 2023",
+        "category": "Internal Workflow Automation",
+        "description": "Web-based internal document approval and corporate correspondence automation system with hierarchical access control and audit trail features.",
+        "badges": ["Laravel 9", "MySQL", "SQL Server", "Laragon", "Figma"],
+        "webUrl": "https://eoffice.jastania.co.id",
+        "webTitle": "E-Office Jasa Tania",
+        "webMetrics": ["Laravel 9", "MySQL", "SQL Server"],
+        "webTag": "Laravel 9 + TailwindCSS",
+        "webDesc": "Automated Corporate Approval & Archiving System",
+        "isConfidential": true
+      },
+      {
+        "id": 5,
+        "title": "Jastan Mobile App",
+        "client": "Asuransi Jasa Tania TBK",
+        "type": "mobile",
+        "year": "2020 - 2023",
+        "category": "Insurance Customer Mobile",
+        "description": "Native Android application for Asuransi Jasa Tania policyholders, enabling policy search, instant claim filing, and Alibaba Cloud + Firebase Notification integration.",
+        "badges": ["Kotlin", "Android Native", "Alibaba Cloud", "Firebase"],
+        "appTitle": "Jastan Mobile App",
+        "appBannerTitle": "Asuransi Jasa Tania Mobile",
+        "appBannerSub": "Kotlin Android Native",
+        "feat1": "Direct Policy Claim Input",
+        "feat2": "Alibaba Cloud Infrastructure",
+        "feat3": "Push Notification Alerts",
+        "isConfidential": true
+      },
+      {
+        "id": 6,
+        "title": "Web Agent Production Input",
+        "client": "Asuransi Jasa Tania TBK",
+        "type": "web",
+        "year": "2020 - 2023",
+        "category": "Insurance Production Portal",
+        "description": "Web portal where agents input insurance policies and claims directly, with strict form validations and automatic premium calculations.",
+        "badges": ["React JS", "Express JS", "MySQL", "SQL Server"],
+        "webUrl": "https://webagent.jastania.co.id",
+        "webTitle": "Jastan Web Agent Portal",
+        "webMetrics": ["React JS", "Express JS", "MySQL"],
+        "webTag": "React JS + Express API",
+        "webDesc": "Customer Production & Premium Calculation System",
+        "isConfidential": true
+      },
+      {
+        "id": 7,
+        "title": "Kredit Pasti Mudah App",
+        "client": "Maybank Finance Indonesia",
+        "type": "mobile",
+        "year": "2017 - 2018",
+        "category": "Fintech Credit Simulation",
+        "description": "Maybank Finance fast vehicle loan application featuring installment simulation calculators, document scanners, and integrated REST API .NET backend.",
+        "badges": ["React Native", "Redux Toolkit", ".NET API", "SQL Server", "Firebase"],
+        "appTitle": "Kredit Pasti Mudah",
+        "appBannerTitle": "Maybank Kredit Pasti Mudah",
+        "appBannerSub": "React Native + .NET Core",
+        "feat1": "Instant Credit Calculator",
+        "feat2": "Document Scanner & Uploader",
+        "feat3": "Integrated Credit Score Engine",
+        "image": "/kpm/KPM.PNG"
+      },
+      {
+        "id": 8,
+        "title": "Maybank Finance App",
+        "client": "Maybank Finance Indonesia",
+        "type": "mobile",
+        "year": "2017 - 2018",
+        "category": "Customer Self-Service Mobile",
+        "description": "Main mobile application for Maybank Finance customers to check remaining installments, pay online, and request BPKB collection.",
+        "badges": ["React Native", "Redux Toolkit", "Firebase", "SQL Server"],
+        "appTitle": "Maybank Finance App",
+        "appBannerTitle": "Maybank Finance Mobile",
+        "appBannerSub": "React Native Cross Platform",
+        "feat1": "Installment Payment Gateway",
+        "feat2": "Contract & BPKB Tracker",
+        "feat3": "Secure Account Portal",
+        "image": "/maybankf/MaybankF.PNG"
+      }
+    ]
+  }
+}

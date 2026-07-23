@@ -1,0 +1,57 @@
+{
+  "header": {
+    "home": "Beranda / Profil",
+    "homeShort": "Profil",
+    "projects": "Galeri Proyek",
+    "projectsShort": "Proyek",
+    "projectCount": "Proyek"
+  },
+  "bio": {
+    "available": "Tersedia untuk Kontrak / Kerja",
+    "copyEmail": "Salin Email",
+    "copiedEmail": "Email Tersalin! ✓",
+    "connect": "Hubungi / Hubungkan",
+    "call": "Telepon",
+    "copy": "Salin",
+    "copied": "Tersalin ✓",
+    "downloadCv": "Unduh CV"
+  },
+  "stats": {
+    "education": "RIWAYAT PENDIDIKAN",
+    "formal": "Gelar Formal"
+  },
+  "tech": {
+    "title": "MESIN TEKNOLOGI UTAMA",
+    "sub": "Teknologi Sesuai Klasifikasi",
+    "moreDetails": "TIDAK LIHAT FRAMEWORK YANG ANDA BUTUHKAN? KLIK DETAIL SELENGKAPNYA →"
+  },
+  "experience": {
+    "title": "PENGALAMAN KERJA PROFESSIONAL",
+    "sub": "Karir & Kontrak"
+  },
+  "projects": {
+    "title": "PORTFOLIO SHOWCASE",
+    "sidebar": "DAFTAR PORTOFOLIO",
+    "separate": "Proyek Terpisah",
+    "all": "Semua"
+  },
+  "device": {
+    "laptopView": "TAMPILAN LAPTOP (APLIKASI WEB)",
+    "phoneView": "TAMPILAN SMARTPHONE (APLIKASI MOBILE)",
+    "techHeader": "TEKNOLOGI & UTILITY",
+    "online": "ONLINE",
+    "ready": "SIAP",
+    "synced": "TER-SINKRON",
+    "active": "AKTIF",
+    "stackCore": "INTI STACK",
+    "styling": "STYLING",
+    "integration": "INTEGRASI",
+    "restricted": "AKSES DIBATASI / NDA SECURE",
+    "confidentialTitle": "PROYEK INTERNAL RAHASIA",
+    "confidentialDesc": "Proyek ini bersifat rahasia perusahaan (Internal Enterprise Project). Dokumentasi visual dan akses publik dinonaktifkan sesuai dengan Perjanjian Kerahasiaan (NDA) perusahaan terkait.",
+    "securityStatus": "STATUS KEAMANAN: ENKRIPSI PENUH",
+    "playStore": "Unduh Play Store",
+    "appStore": "Unduh App Store",
+    "visitWeb": "Kunjungi Situs"
+  }
+}
